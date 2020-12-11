@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name = "format-detection" content = "telephone=no">
     <title>Glassmorphism effect practice</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -12,8 +13,8 @@
 <body>
     <div class="section">
         <div class="container">
-            <div onclick="swipe()" class="card">
-                <div class="face front">
+            <div class="card">
+                <div class="face front" id="cardFront">
                     <svg class="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 559.21 350">
                         <title>Main logo</title>
                         <path
@@ -33,7 +34,7 @@
                     </div>
                     <h5 class="cardholder">AUSTIN CHEN</h5>
                 </div>
-                <div class="face back">
+                <div class="face back" id="cardBack">
                     <div class="blackbar"></div>
                     <div class="signbar">
                         <div class="secu-number">213</div>

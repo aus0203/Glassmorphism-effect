@@ -214,15 +214,15 @@ body {
     transform: rotateY(180deg);
 }
 
-.card:hover .face.front {
+.card:hover .face.front{
     transform: rotateY(180deg);
 }
 
-.card:hover .face.back {
+.card:hover .face.back{
     transform: rotateY(360deg);
 }
 
-@media screen and (max-width: 450px){
+@media screen and (max-width: 450fpx){
 
     .container::before {
         padding: 12rem;
