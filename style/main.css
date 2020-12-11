@@ -102,8 +102,8 @@ body {
   transition: 0.5s ease;
   border: 3px solid transparent;
   background-clip: padding-box;
-  -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
 }
 
 /*Front*/
@@ -248,7 +248,8 @@ body {
             transform: scale(0.9);
   }
   .number {
-    word-spacing: 1rem;
+    font-size: 12px;
+    word-spacing: 8px;
   }
 }
 /*# sourceMappingURL=main.css.map */
