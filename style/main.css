@@ -245,7 +245,7 @@ body {
           transform: rotateY(360deg);
 }
 
-@media screen and (max-width: 450fpx) {
+@media screen and (max-width: 450px) {
   .container::before {
     padding: 12rem;
   }
