@@ -222,7 +222,19 @@ body {
     transform: rotateY(360deg);
 }
 
-@media screen and (max-width: 375px){
+@media screen and (max-width: 450px){
+
+    .container::before {
+        padding: 12rem;
+    }
+    
+    .container::after {
+    
+        padding: 5rem;
+        
+    }
+
+
     .card{
         transform: scale(0.8);
     }
