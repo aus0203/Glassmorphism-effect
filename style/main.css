@@ -247,7 +247,7 @@ body {
     -webkit-transform: scale(0.9);
             transform: scale(0.9);
   }
-  .number {
+  .front .number {
     font-size: 12px;
     word-spacing: 8px;
   }
