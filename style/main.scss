@@ -83,6 +83,7 @@ body {
         transition: 0.5s ease;
         border: 3px solid transparent;
         background-clip: padding-box;
+        -webkit-backface-visibility: hidden;
         backface-visibility: hidden;
     }
 }
@@ -129,11 +130,11 @@ body {
 
     .number {
         position: absolute;
-        font-size: 1.5rem;
+        font-size: 2rem;
         top: 9rem;
         left: 2rem;
         letter-spacing: 4px;
-        word-spacing:2.5rem;
+        word-spacing:1.2rem;
     }
 
     .expire {
@@ -221,7 +222,7 @@ body {
 
 @media screen and (max-width: 500px){
     .card{
-        transform: scale(0.8);
+        transform: scale(0.9);
     }
 
     .number {
