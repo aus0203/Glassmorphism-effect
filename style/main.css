@@ -152,6 +152,8 @@ body {
   top: 9rem;
   left: 2rem;
   letter-spacing: 4px;
+  -webkit-word-spacing: .8rem;
+  text-decoration: none;
   word-spacing: .8rem;
 }
 
